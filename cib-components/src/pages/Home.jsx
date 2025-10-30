@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import Navbar from '../components/layout/ Navbar';
 import './Home.css';
+import Logo from '../assets/logomain.png';
 
 const Home = () => {
     return ( 
 <>
 
         <header className='header'>
-            <img src='cib-components/src/assets/logomain.png' alt='logo'/ >
+            <img src={Logo} alt='logo'/>
             <Navbar page="About Us" />
             <Navbar page=" Investor Relations " />
             <Navbar page="Responsible Banking" />
@@ -20,12 +21,6 @@ const Home = () => {
 
 
         <section className='hero'>
-
-            <img className='absolute'>
-            
-
-
-            </img>
 
 
 
