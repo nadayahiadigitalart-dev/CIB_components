@@ -134,6 +134,39 @@ line-height: 2.5rem;
     gap: 10px;
 }
 
+.bg_f{
+    width: 100%;
+    background-image: url(../assets/group.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.news{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.im{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row_n{
+     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.nnn{
+    width: 200px;
+}
 
 
 
