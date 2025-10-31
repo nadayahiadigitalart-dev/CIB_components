@@ -18,6 +18,7 @@ import Button from '../common/Button';
 import ko from '../assets/ko.png';
 import ko1 from '../assets/ko1.png';
 import ko3 from '../assets/ko3.png';
+import Footer from '../components/layout/Footer';
 
 
 
@@ -127,6 +128,8 @@ transformative."  a="Read more" />
 
 
         </div>
+
+        <Footer />
 
 
 
