@@ -15,7 +15,7 @@ const Header = () => {
     return ( 
 
       <section className='h'>
-        <img src={cibImage} alt="CIB Background" className="hero-image" />
+        <img src={cibImage} alt="CIB Background" className="hero-img" />
 
             
 

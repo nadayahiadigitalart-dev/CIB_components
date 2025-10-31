@@ -79,6 +79,62 @@ line-height: 2.25rem;
     margin-left: 200px;
 
     
-    
 }
+
+.apply{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* gap: 50px; */
+
+    margin-top: 100px;
+}
+
+
+.card_i{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* gap: 10px; */
+}
+
+.row_cards{
+     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+
+.f3{
+    color: #333;
+font-family: Inter;
+font-size: 1.44375rem;
+font-style: normal;
+font-weight: 400;
+line-height: 2.5rem; 
+}
+
+.roww{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.col_c{
+    margin-top: 100px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+
 

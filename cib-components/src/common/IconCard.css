@@ -1,0 +1,16 @@
+.font{
+    color: #1858A8;
+font-family: Inter;
+font-size: 1.3rem;
+font-style: normal;
+font-weight: 700;
+line-height: 1.625rem; /* 125% */
+}
+
+.row_cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
