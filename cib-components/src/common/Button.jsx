@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 import './Button.css';
 
 
-const Botton = () => {
+const Botton = (props) => {
     return ( 
 
 
-        <div className='bu' >Discover more</div>
+        <div className='bu' >{props.bu}</div>
 
 
      );

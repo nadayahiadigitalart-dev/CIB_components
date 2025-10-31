@@ -14,6 +14,7 @@ import Ic from '../assets/icon1.png';
 import Ic2 from '../assets/icon2.png';
 import Ic3 from '../assets/icon3.png';
 import CardImg from '../common/CardImg';
+import Button from '../common/Button';
 import ko from '../assets/ko.png';
 import ko1 from '../assets/ko1.png';
 import ko3 from '../assets/ko3.png';
@@ -116,6 +117,8 @@ transformative."  a="Read more" />
 
 
             </div>
+
+            <Button bu="View more" />
 
 
         </section>

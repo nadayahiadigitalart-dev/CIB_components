@@ -24,7 +24,7 @@ const Header = () => {
                 <p className='ff'>Delivering value to our clients, our <br></br>
                 community and our shareholders</p>
 
-                <Button />
+                <Button bu="Discover more" />
 
             </div>
 
