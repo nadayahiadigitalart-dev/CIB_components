@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import Navbar from '../components/layout/ Navbar';
 import './Home.css';
 import Logo from '../assets/logomain.png';
-import Button from '../common/Button';
+
+import Mainmenu from '../common/Mainmenu';
+import Header from '../components/Header';
 
 
 
@@ -12,6 +14,7 @@ import Button from '../common/Button';
 const Home = () => {
     return ( 
 <>
+<div className='body'>
 
         <header className='header'>
             <img src={Logo} alt='logo'/>
@@ -26,24 +29,38 @@ const Home = () => {
         </header>
 
 
-        <section className='hero'>
+        
+            <Header />
 
-            <div className='col'>
-                <h1 className='fb'>CIB</h1>
-                <p className='f'>Delivering value to our clients, our <br></br>
-                community and our shareholders</p>
-
-                <Button />
-
-            </div>
-
-        </section>
+       
 
 
         <section className='words'>
             
+            <Mainmenu text="Apply Online" />
+            <Mainmenu text="News" />
+            <Mainmenu text="Blog Articles" />
+            <Mainmenu text="CIB International" />
+            <Mainmenu text="Sustainable Finance" />
+            <Mainmenu text="Awards" />
+
+
 
         </section>
+
+
+
+        <section className='apply'>
+
+            
+
+
+        </section>
+
+
+
+
+        </div>
 
 
 

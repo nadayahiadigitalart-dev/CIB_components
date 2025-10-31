@@ -1,8 +1,15 @@
 .f{
-    color: #FFF;
+    /* color: #FFF;
 font-family: Inter;
 font-size: 14.9px;
 font-style: normal;
 font-weight: 600;
-line-height: 14px; 
+line-height: 14px;  */
+
+color: #FFF;
+font-family: Inter;
+/* font-size: 0.93125rem; */
+font-style: normal;
+font-weight: 600;
+line-height: 0.875rem; 
 }
