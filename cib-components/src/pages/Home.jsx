@@ -4,7 +4,9 @@ import './Home.css';
 import Logo from '../assets/logomain.png';
 
 import Mainmenu from '../common/Mainmenu';
-import Header from '../components/Header';
+import Header from '../components/layout/Header';
+import SmallTitle from '../common/SmallTitle';
+import Title from '../common/Title';
 
 
 
@@ -52,7 +54,10 @@ const Home = () => {
 
         <section className='apply'>
 
-            
+            <SmallTitle small_T="Apply Online"/>
+            <Title title="Apply online for cards and loans with ease!"/>
+
+                
 
 
         </section>

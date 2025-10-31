@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import './Title.css';
+import './SmallTitle.css';
 
 
 const SmallTitle = (props) => {
