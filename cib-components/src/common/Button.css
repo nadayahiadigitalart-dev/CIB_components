@@ -1,0 +1,18 @@
+.bu{
+   display: inline-flex;
+/* height: 1.9375rem; */
+padding: 0.36875rem 0.52938rem 0.39375rem 1.5rem;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+
+border-radius: 0.375rem;
+background: #1858A8;
+
+color: #FFF;
+font-family: Inter;
+font-size: 0.93125rem;
+font-style: normal;
+font-weight: 600;
+line-height: 0.875rem; 
+}

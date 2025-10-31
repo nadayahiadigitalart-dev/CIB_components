@@ -2,6 +2,12 @@ import React, { Component } from 'react';
 import Navbar from '../components/layout/ Navbar';
 import './Home.css';
 import Logo from '../assets/logomain.png';
+import Button from '../common/Button';
+
+
+
+
+
 
 const Home = () => {
     return ( 
@@ -22,7 +28,20 @@ const Home = () => {
 
         <section className='hero'>
 
+            <div className='col'>
+                <h1 className='fb'>CIB</h1>
+                <p className='f'>Delivering value to our clients, our <br></br>
+                community and our shareholders</p>
 
+                <Button />
+
+            </div>
+
+        </section>
+
+
+        <section className='words'>
+            
 
         </section>
 
